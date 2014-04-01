@@ -23,7 +23,7 @@
     var headers = generateChain(posts.map(function(p){ return p.name } ))
     var bodies  = generateChain(posts.map(function(p){ return p.body } ))
 
-    header = markov(headers, 15)
+    header = markov(headers, 2)
     body = markov(bodies, 3000)
 
     var paragraphs = body.split("\n\n")
