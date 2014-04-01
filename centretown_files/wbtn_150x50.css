@@ -1,0 +1,46 @@
+* { margin: 0px; padding: 0px; background-color: transparent; }
+a:link, a:visited, a:active { text-decoration:none; color:#003876; }
+a:hover { text-decoration:none; color:#2981da; }
+a#nochange:hover { color:#003876; }
+img { border: none; }
+.fl { float: left; }
+#container {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#003876;
+	width:148px;
+	border:1px solid #BFBFBF;
+	background: #ffffff url('/weatherbuttons/150x50/swirl.gif') no-repeat;
+	overflow: auto;
+}
+#left_col { float:left; width:61px; padding: 1px; }
+	#left_col .btn_forecast { padding: 1px 0px 0px; }
+#icon { float: left; width: 45px; padding: 2px 0px 0px; }
+	#icon img { width: 45px; }
+#temp {
+	float: left;
+	width: 37px;
+	padding: 10px 0px 2px;
+	font:17px "Century Gothic", Arial, Helvetica, sans-serif;
+}
+	#temp sup { font: 12px; }
+#bottom_row { clear: both; padding: 0px 0px 1px 1px; }
+	input.button {
+		border: #6c6c6c 1px solid;
+		font: 10px arial, verdana, helvetica, sans-serif;
+		vertical-align: middle;
+		letter-spacing: 1px;
+		width: 117px;
+		padding: 0px 0px 2px 3px;
+	}
+	input.searchButton {
+		background: transparent url('/weatherbuttons/150x50/go.gif') no-repeat;
+		width: 25px; height: 16px;
+		border: none;
+		vertical-align: middle;
+	}
+	input.searchButton_fr {
+		background: transparent url('/weatherbuttons/150x50/go_fr.gif') no-repeat;
+		width: 25px; height: 16px;
+		border: none;
+		vertical-align: middle;
+	}

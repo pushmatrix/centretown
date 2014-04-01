@@ -1,0 +1,279 @@
+/*------------------------------------------------------------------------
+# JA Teline - April, 2007
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2007 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+#ja-newswrap .article_seperator {
+	background: none;
+}
+
+.ja-newsblock {
+	margin: 0;
+	display: block;
+}
+
+.ja-newsitem,
+.ja-newsitem-left,
+.ja-newsitem-right,
+.ja-newsitem-center {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.ja-newsitem-left,
+.ja-newsitem-center {
+}
+
+.ja-newsitem-left div.ja-newsitem-inner,
+.ja-newsitem-center div.ja-newsitem-inner,
+.ja-newsitem-right div.ja-newsitem-inner,
+.ja-newsitem div.ja-newsitem-inner {
+	text-align: left;
+	float: left;
+}
+
+.ja-newsitem-center div.ja-newsitem-inner {
+	float: none;
+	margin: 0 auto;
+}
+
+.ja-newsitem-right div.ja-newsitem-inner {
+	float: right;
+}
+
+a.ja-newscat, a.ja-newscat:hover, a.ja-newscat:active, a.ja-newscat:focus {
+	display: block;
+	margin: 0 0 5px;
+	padding: 0;
+	position: absolute;
+	font: 125%/normal Arial, Helvetica, sans-serif;
+	border: none;
+}
+
+.ja-newscatwrap .hover .ja-newscat,
+.ja-newsitem-left:hover .ja-newscat,
+.ja-newsitem-center:hover .ja-newscat,
+.ja-newsitem-right:hover .ja-newscat {
+}
+
+.ja-newscattab {
+	position: relative;
+	height: 17px;
+	padding: 2px 10px 0px 10px;
+	background: #666666;
+	color: #ffffff;
+}
+
+.ja-newscatwrap .hover .ja-newscattab {
+	background: url(../images/ja-newscattab-bg.gif) repeat-x top left;
+}
+
+.ja-newscattab-topleft {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 1px;
+	width: 1px;
+	background: url(../images/ffffff.gif) no-repeat top left;
+}
+
+.ja-newscattab-topright {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 1px;
+	width: 1px;
+	background: url(../images/ffffff.gif) no-repeat top right;
+}
+
+a.ja-newscat span {
+	font-weight: normal;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 80%;
+}
+
+.ja-newscatwrap .hover .ja-newscat span,
+.ja-newsitem-left:hover .ja-newscat span,
+.ja-newsitem-center:hover .ja-newscat span,
+.ja-newsitem-right:hover .ja-newscat span {
+}
+
+a.ja-newstitle {
+	display: block;
+	margin-bottom: 5px; 
+	border: none;
+	font: 125%/normal Arial, Helvetica, sans-serif;
+	color: #d30703;
+}
+
+a.ja-newstitle:hover, a.ja-newstitle:active, a.ja-newstitle:focus {
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+.ja-newscontent {
+	padding: 9px 11px 0px 11px;
+	background: url(../images/ja-newscontent-bg.gif) repeat-x top left;
+}
+
+#jahl-newsitem .ja-newscontent {
+	padding: 5px;
+	background: none;
+}
+
+.ja-newscontent img {
+	margin: 2px 5px 5px 0;
+	width: 80px;
+	height: 80px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+}
+
+#jahl-newsitem .ja-newscontent img {
+	width: 160px;
+	height: 160px;
+}
+
+.ja-newscontent p {
+	margin: 5px 0;
+}
+
+.ja-newsitem ul {
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+ul.ja-newslinks {
+	margin: 15px 0 0;
+	padding: 0;
+}
+
+ul.ja-newslinks li {
+	margin: 0;
+	padding: 0 0 0 22px;
+	background: url(../images/bullet-list.gif) no-repeat 12px 8px;
+}
+
+ul.ja-newslinks li a,
+ul.ja-newslinks li a:hover,
+ul.ja-newslinks li a:active,
+ul.ja-newslinks li a:focus {
+}
+
+/* headline
+--------------------------------------------- */
+#jahl-newsitemwrap1 {
+	background: url(../images/jahl-newsitemwrap1-bg.gif) no-repeat top left;
+	height: 240px;
+	padding-left: 1px;
+}
+
+#jahl-newsitemwrap2 {
+	background: url(../images/jahl-newsitemwrap2-bg.gif) no-repeat top right;
+	height: 240px;
+	padding-right: 1px;
+}
+
+#jahl-newsitem {
+	background: url(../images/jahl-newsitem-bg.gif) repeat-x top left #f6f6f6;
+	height: 240px;
+	padding: 5px;
+}
+
+div.ja-newscat {
+	display: block;
+	padding: 5px 0 3px 0;
+	margin: 0;
+	position: relative;
+	font: 125%/normal Arial, Helvetica, sans-serif;
+}
+
+div.ja-newscat span {
+	padding: 2px 0 2px 10px;
+	color: #d30703;
+}
+
+#jahl-newsitem a.ja-newstitle { 
+	font-size: 200%;
+	font-weight: bold;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+#jahl-newsitem img { 
+	margin: 2px 10px 10px 0;
+}
+
+/* Sidebar
+--------------------------------------------- */
+div.module-ja-newssb .ja-newsblock {
+	margin: 0 5px 15px;
+}
+
+div.module-ja-newssb ul.ja-newslinks {
+	margin: 0!important;
+}
+
+div.module-ja-newssb ul.ja-newslinks li {
+	padding-left: 22px!important;
+	background-position: 11px 6px!important;
+}
+
+div.module-ja-newssb ul.ja-newslinks li a {
+	color: #484848;
+	text-decoration: none;
+}
+
+div.module-ja-newssb ul.ja-newslinks li a:hover,
+div.module-ja-newssb ul.ja-newslinks li a:active,
+div.module-ja-newssb ul.ja-newslinks li a:focus {
+	color: #F85703!important;
+	text-decoration: none;
+}
+
+/* Control bar
+--------------------------------------------- */
+.jahl-newscontrol {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 0;
+	display: block;
+}
+
+.jahl-newscontrol ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+	float: left;
+}
+
+.jahl-newscontrol li {
+	margin: 0;
+	padding: 0;
+	background: none;
+	display: inline;
+}
+
+#loading-indicator {
+	float: left;
+}
+
+#jahl-indicator {
+	position: relative;
+	top: -3px;
+	background: url(../images/jahl-indicator-bg.gif) no-repeat 0px 0px;
+	color: #ffffff;
+	padding: 0px 5px 1px 5px;
+	font-size: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	line-height: normal;
+	margin-left: 5px;
+}
