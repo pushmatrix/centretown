@@ -12,7 +12,7 @@
     chain = {};
     for (_i = 0, _len = corpus.length; _i < _len; _i++) {
       post = corpus[_i];
-      post = corpus[_i].join(" ")
+      post = post.join('.');
       _ref = post.split(".");
       for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
         sentence = _ref[_j];
@@ -34,7 +34,7 @@
           lastWord = word;
         }
         endWord = words[words.length - 1];
-        if (endWord !== 'a' && endWord !== 'for' && endWord !== 'with') {
+        if (endWord !== 'a' && endWord !== 'for' && endWord !== 'with' && endWord !== 'is' && endWord !== 'it' && endWord !== 'while' && endWord !== 'me' && endWord !== '' && endWord !== '' && endWord !== 'that') {
           ends.push(endWord);
         }
       }
