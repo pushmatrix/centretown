@@ -18,11 +18,112 @@
 <script type="text/javascript" src="markovScript.js"></script>
 <script type="text/javascript">
   $(function() {
+
+    restaurants = ["Siam Bistro",
+"Siam Bistro",
+"Yame Restaurant",
+"Yame Restaurant",
+"Sushi Sun",
+"Sushi Sun",
+"The Urban Pear",
+"The Urban Pear",
+"Lieutenants Pump Pub",
+"Lieutenants Pump Pub",
+"Tennessy Willems",
+"Tennessy Willems",
+"Bobby's Table",
+"Bobby's Table",
+"Arturo's",
+"Arturo's",
+"Trio Lounge",
+"Trio Lounge",
+"Flying Piggy's Bistro",
+"Flying Piggy's Bistro",
+"So Good Restaurant 好運中西美食店",
+"So Good Restaurant 好運中西美食店",
+"The Keg Steakhouse + Bar",
+"The Keg Steakhouse + Bar",
+"Bread & Sons Bakery",
+"Bread & Sons Bakery",
+"Spud's Potato Bar and...",
+"Spud's Potato Bar and...",
+"Cafe My House",
+"Cafe My House",
+"The Rideau Restaurant",
+"The Rideau Restaurant",
+"Fresco Bistro Italiano",
+"Fresco Bistro Italiano",
+"The Buzz Restaurant and...",
+"The Buzz Restaurant and...",
+"Greek Souvlaki Shack",
+"Greek Souvlaki Shack",
+"La Belle Verte Vegan...",
+"La Belle Verte Vegan...",
+"Barrhaven Vietnamese",
+"Barrhaven Vietnamese",
+"Pho Thi Fusion",
+"Pho Thi Fusion",
+"Banc Sushi",
+"Supply and Demand",
+"Banc Sushi",
+"Supply and Demand",
+"Chahaya Malaysia",
+"Chahaya Malaysia",
+"Black Dog Bistro",
+"Black Dog Bistro",
+"The Black Tomato",
+"The Black Tomato",
+"Rangoli",
+"Rangoli",
+"Atelier",
+"Atelier",
+"Oh So Good!",
+"Oh So Good!",
+"Back Lane Cafe",
+"Back Lane Cafe",
+"Coconut Lagoon",
+"Coconut Lagoon",
+"Cupcake Lounge",
+"Cupcake Lounge",
+"Pelican Fishery & Grill",
+"Pelican Fishery & Grill",
+"Pancho Villa",
+"Pancho Villa",
+"Absinthe Cafe Resto Bar",
+"Absinthe Cafe Resto Bar",
+"Chips & Dairy",
+"Chips & Dairy",
+"Stella Luna Gelato Café",
+"Stella Luna Gelato Café",
+"Jak's Kitchen",
+"Jak's Kitchen",
+"BeaverTails Pastry",
+"BeaverTails Pastry",
+"Brother's Beer Bistro",
+"Brother's Beer Bistro",
+"Ottawa Bagel Shop & Deli",
+"Ottawa Bagel Shop & Deli",
+"The Foolish Chicken",
+"The Foolish Chicken",
+"Little India Cafe",
+"Little India Cafe",
+"Luna Crepes and Cafe",
+"Luna Crepes and Cafe",
+"Talay Thai",
+"Talay Thai",
+"The Green Door Restaurant",
+"The Green Door Restaurant",
+"Sandy Hill Lounge and Grill",
+"Sandy Hill Lounge and Grill",
+"Le Buffet Des Continents",
+"Le Buffet Des Continents",
+"Fiamma",
+"Fiamma"]
+
     var headers = {}
     var bodies = {}
-    var headers = generateChain(posts.map(function(p){ return p.name } ))
     var bodies  = generateChain(posts.map(function(p){ return p.body } ))
-
+    console.log(bodies)
     header = markov(headers, 2)
     body = markov(bodies, 3000)
 
@@ -333,7 +434,7 @@ Only registered users can comment an article. Please <a href="http://www.centret
 </tbody></table>
 </div>
 
-<p class="nocomment">No comment posted</p><br><div style="clear:both;text-align:center;"><span class="small"><br>mXcomment 1.0.6&nbsp;�&nbsp;2007-2014 - <a href="http://www.visualclinic.fr/" target="_blank">visualclinic.fr</a><br>License <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons</a> - Some rights reserved</span></div>			<table align="center" style="margin-top: 25px;">
+<p class="nocomment">No comment posted</p><br><div style="clear:both;text-align:center;"><span class="small"><br>mXcomment 1.0.6&nbsp;©&nbsp;2007-2014 - <a href="http://www.visualclinic.fr/" target="_blank">visualclinic.fr</a><br>License <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons</a> - Some rights reserved</span></div>			<table align="center" style="margin-top: 25px;">
 			<tbody><tr>
 									<th class="pagenav_next">
 						<a href="http://www.centretownnews.ca/index.php?option=com_content&task=view&id=4564&Itemid=94">
@@ -551,7 +652,7 @@ Only registered users can comment an article. Please <a href="http://www.centret
   </tbody></table>
   <div style="width: 800px; margin: auto; padding-bottom: 6px; text-align: left;">
     <div style="float: right;"><a href="http://www.bioniq.ca/" style="color: #000000; text-decoration: none; border: none;"><u>Web Development</u> &amp; <u>Design</u> by <u>BIONIQ</u></a></div>
-    Copyright � 2014 Centretown News Online</div>
+    Copyright © 2014 Centretown News Online</div>
 </div><canvas style="display: none;"></canvas>
 
 
