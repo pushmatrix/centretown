@@ -145,8 +145,10 @@ var other = ['Chic', 'Warehouse', 'Industrial', 'Basement', 'Palace', 'Smell', '
     body = markov(bodies, 3000)
 
     var paragraphs = body.split("\n\n")
-    $('#titlez').text(restaurants[Math.floor(Math.random() * restaurants.length)])
-    var atmosphere = firstDesc.randomDiffElement() + " " +  types.randomDiffElement() + " " + other.randomDiffElement();
+    var title = restaurants[Math.floor(Math.random() * restaurants.length)];
+    $('#titlez').text(title)
+    window.title = title;
+    bvar atmosphere = firstDesc.randomDiffElement() + " " +  types.randomDiffElement() + " " + other.randomDiffElement();
     $('#atmos').text(atmosphere);
     $('#reviewText').empty()
     for (paragraph in paragraphs) {
@@ -196,7 +198,7 @@ var other = ['Chic', 'Warehouse', 'Industrial', 'Basement', 'Palace', 'Smell', '
                   </div>
                   <div id="wsb-element-223785728" class="wsb-element-text" data-type="element">
                      <div class="txt ">
-                        <h1><span style="color:#A52A2A;"><span style="font-size:96px;"><span id='titlez' style="background-color: rgba(0, 0, 0, 0);">Hooch Bourbon House</span></span></span><br></h1>
+                        <h1><span style="color:#A52A2A;"><span style="font-size:96px;"><span id='titlez' style="background-color: rgba(0, 0, 0, 0);"></span></span></span><br></h1>
                         <p><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="line-height: normal; letter-spacing: 0px;"><strong>Atmosphere: </strong><span id="atmos"></span>&nbsp;</span><br></span></span></p>
                         <div id='reviewText'></div>
                         </div>
