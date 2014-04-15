@@ -148,7 +148,7 @@ var other = ['Chic', 'Warehouse', 'Industrial', 'Basement', 'Palace', 'Smell', '
     var title = restaurants[Math.floor(Math.random() * restaurants.length)];
     $('#titlez').text(title)
     window.title = title;
-    bvar atmosphere = firstDesc.randomDiffElement() + " " +  types.randomDiffElement() + " " + other.randomDiffElement();
+    var atmosphere = firstDesc.randomDiffElement() + " " +  types.randomDiffElement() + " " + other.randomDiffElement();
     $('#atmos').text(atmosphere);
     $('#reviewText').empty()
     for (paragraph in paragraphs) {
